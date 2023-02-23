@@ -65,12 +65,6 @@ namespace ShootingRange.Controllers
         {
             if (ModelState.IsValid)
             {
-                /*var manufacturer = _context.Manufacturers.FirstOrDefault(m => m.Id == guns.ManufacturerId);
-                if (manufacturer != null)
-                {
-                    guns.Manufacturer = manufacturer;
-                }
-                */
                 _context.Add(guns);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -82,6 +76,8 @@ namespace ShootingRange.Controllers
         // GET: Guns/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var manufacturers = _context.Manufacturers.ToList();
+            ViewBag.Manufacturers = new SelectList(manufacturers, "Id", "Name");
             if (id == null || _context.Guns == null)
             {
                 return NotFound();

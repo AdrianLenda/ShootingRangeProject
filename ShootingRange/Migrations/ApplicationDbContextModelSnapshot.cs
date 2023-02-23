@@ -51,8 +51,8 @@ namespace ShootingRange.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "46552155-46bb-4e65-b1d6-e108115d0590",
-                            ConcurrencyStamp = "0bbaafc0-1bab-45b7-8b08-49d4d24de54f",
+                            Id = "4a002723-7831-4d5e-8787-f7bae18ced30",
+                            ConcurrencyStamp = "a08fcb98-8998-4238-9a13-991ae89cd159",
                             Name = "Admin",
                             NormalizedName = "Admin"
                         });
@@ -150,33 +150,33 @@ namespace ShootingRange.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "277e6a27-d529-4bac-8a94-ebbd91049868",
+                            Id = "45950960-b428-4f70-806e-97053b64d514",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "55fce5f9-d690-4ef6-bdc1-a2eb810c3d7e",
+                            ConcurrencyStamp = "32afa632-93f7-4cc5-b82b-0fb88727274f",
                             Email = "admin@admin",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMIN",
                             NormalizedUserName = "ADMIN@ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOh7uQ4LdOBjRiptNdZfUsakrpvIHLKjd/vAPG+f0392MPwwy8igw2//nGvuSn5Mcw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENnTC5YgxBDF5sf0WecKzOEwt+74iXoHLuVc3yktgezxyTKXJgsKRPPkqrU0d1ECoA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "48c2f195-cb59-456c-95b5-b54aaa7d30ea",
+                            SecurityStamp = "7a4d430e-42f3-4550-bfc8-41634627b305",
                             TwoFactorEnabled = false,
                             UserName = "admin@admin"
                         },
                         new
                         {
-                            Id = "71f048f3-6ee9-4c75-a615-d744523cbe98",
+                            Id = "e361b97b-9272-4470-b02a-c49e934e13aa",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "dacb00df-0caa-4c71-81f2-647cf97f1420",
+                            ConcurrencyStamp = "34a7a5e6-7984-4c13-8fc0-0003965cbd6c",
                             Email = "user@user",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@USER",
                             NormalizedUserName = "USER@USER",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJE5LwxOcXGYsuJ4BZ/xg51Z3AoxCt0FFWTjBZQ8D3tV4s7ngpUhjrjbW3BT3QyBUg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEop0JwrL5ndaEQ5wkWtw+zqYha/wjcBvfbR8deeTLoPujPOOscjj2QiiEaKEM7L9Q==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "a95a5da3-0140-49ef-9cb9-5787539e107b",
+                            SecurityStamp = "b90e209c-a05a-4df7-b7b0-f678ed029364",
                             TwoFactorEnabled = false,
                             UserName = "user@user"
                         });
@@ -248,8 +248,8 @@ namespace ShootingRange.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "277e6a27-d529-4bac-8a94-ebbd91049868",
-                            RoleId = "46552155-46bb-4e65-b1d6-e108115d0590"
+                            UserId = "45950960-b428-4f70-806e-97053b64d514",
+                            RoleId = "4a002723-7831-4d5e-8787-f7bae18ced30"
                         });
                 });
 

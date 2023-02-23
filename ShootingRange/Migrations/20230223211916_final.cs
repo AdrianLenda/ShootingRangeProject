@@ -248,22 +248,22 @@ namespace ShootingRange.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "46552155-46bb-4e65-b1d6-e108115d0590", "0bbaafc0-1bab-45b7-8b08-49d4d24de54f", "Admin", "Admin" });
+                values: new object[] { "4a002723-7831-4d5e-8787-f7bae18ced30", "a08fcb98-8998-4238-9a13-991ae89cd159", "Admin", "Admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "277e6a27-d529-4bac-8a94-ebbd91049868", 0, "55fce5f9-d690-4ef6-bdc1-a2eb810c3d7e", "admin@admin", false, false, null, "ADMIN@ADMIN", "ADMIN@ADMIN", "AQAAAAEAACcQAAAAEOh7uQ4LdOBjRiptNdZfUsakrpvIHLKjd/vAPG+f0392MPwwy8igw2//nGvuSn5Mcw==", null, false, "48c2f195-cb59-456c-95b5-b54aaa7d30ea", false, "admin@admin" });
+                values: new object[] { "45950960-b428-4f70-806e-97053b64d514", 0, "32afa632-93f7-4cc5-b82b-0fb88727274f", "admin@admin", false, false, null, "ADMIN@ADMIN", "ADMIN@ADMIN", "AQAAAAEAACcQAAAAENnTC5YgxBDF5sf0WecKzOEwt+74iXoHLuVc3yktgezxyTKXJgsKRPPkqrU0d1ECoA==", null, false, "7a4d430e-42f3-4550-bfc8-41634627b305", false, "admin@admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "71f048f3-6ee9-4c75-a615-d744523cbe98", 0, "dacb00df-0caa-4c71-81f2-647cf97f1420", "user@user", false, false, null, "USER@USER", "USER@USER", "AQAAAAEAACcQAAAAEJE5LwxOcXGYsuJ4BZ/xg51Z3AoxCt0FFWTjBZQ8D3tV4s7ngpUhjrjbW3BT3QyBUg==", null, false, "a95a5da3-0140-49ef-9cb9-5787539e107b", false, "user@user" });
+                values: new object[] { "e361b97b-9272-4470-b02a-c49e934e13aa", 0, "34a7a5e6-7984-4c13-8fc0-0003965cbd6c", "user@user", false, false, null, "USER@USER", "USER@USER", "AQAAAAEAACcQAAAAEEop0JwrL5ndaEQ5wkWtw+zqYha/wjcBvfbR8deeTLoPujPOOscjj2QiiEaKEM7L9Q==", null, false, "b90e209c-a05a-4df7-b7b0-f678ed029364", false, "user@user" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { "46552155-46bb-4e65-b1d6-e108115d0590", "277e6a27-d529-4bac-8a94-ebbd91049868" });
+                values: new object[] { "4a002723-7831-4d5e-8787-f7bae18ced30", "45950960-b428-4f70-806e-97053b64d514" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

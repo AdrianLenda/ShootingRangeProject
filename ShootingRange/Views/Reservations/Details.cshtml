@@ -145,17 +145,17 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.AmmunitionNumber)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.InstructorsId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.InstructorsId)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.GunsId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.GunsId)
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Instructors)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Instructors.Name)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Guns)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Guns.Name)
         </dd>
     </dl>
 </div>

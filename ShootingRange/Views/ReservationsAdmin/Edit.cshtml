@@ -144,19 +144,21 @@
                         <span asp-validation-for="AmmunitionNumber" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="Instructors.Name" class="control-label">Nazwisko Instruktora</label>
-                        <select asp-for="Instructors.Name" class="form-control" asp-items="ViewBag.Instructors">
+                        <label asp-for="InstructorsId" class="control-label">Nazwisko Instruktora</label>
+                        <select asp-for="InstructorsId" class="form-control" asp-items="ViewBag.Instructors">
                             <option value="">Wybierz...</option>
                         </select>
+                        <span asp-validation-for="InstructorsId" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="Guns.Name" class="control-label">Nazwa Broni</label>
-                        <select asp-for="Guns.Name" class="form-control" asp-items="ViewBag.Guns">
+                        <label asp-for="GunsId" class="control-label">Nazwa Broni</label>
+                        <select asp-for="GunsId" class="form-control" asp-items="ViewBag.Guns">
                             <option value="">Wybierz...</option>
                         </select>
+                        <span asp-validation-for="GunsId" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <input type="submit" value="Create" class="btn btn-primary" />
+                        <input type="submit" value="Dodaj" class="btn btn-primary" />
                     </div>
                 </form>
     </div>

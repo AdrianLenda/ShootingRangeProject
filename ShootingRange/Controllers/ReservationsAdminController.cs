@@ -83,6 +83,12 @@ namespace ShootingRange.Controllers
         // GET: Reservations/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+
+            var instructors = _context.Instructors.ToList();
+            ViewBag.Instructors = new SelectList(instructors, "Id", "Name");
+
+            var guns = _context.Guns.ToList();
+            ViewBag.Guns = new SelectList(guns, "Id", "Name");
             if (id == null || _context.Reservations == null)
             {
                 return NotFound();
